@@ -34,7 +34,7 @@
   order: 1;
   align-self: flex-start;
   position: absolute;
-  }
+}
 
 .header__title {
   position: relative;
@@ -60,7 +60,7 @@
   align-self: flex-end;
 }
 
-.header__main-illustration{
+.header__main-illustration {
 	width: 765px;
 	height: 608px;
 	background-image:url("../images/header-image.png");
@@ -72,7 +72,7 @@
   z-index: 1;
 }
 
-.header__square-pic{
+.header__square-pic {
     width: 568px;
 		height: 568px;
 		background-color:#2F80ED;
@@ -82,13 +82,17 @@
     align-self: flex-end;
 		transform:rotate(-15deg);
 		animation: square 20s linear infinite;
-  }
+}
 
   @keyframes square {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
-  }
+}
 
+  .two-columns {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
