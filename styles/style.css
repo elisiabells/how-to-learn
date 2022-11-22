@@ -68,6 +68,7 @@
 
 .header__link {
   color: #2F80ED;
+  text-decoration: none;
 }
 
 .header__square-pic {
@@ -216,6 +217,7 @@ p:last-child {
   top: 50%;
   right: 48px; 
   color: #2F80ED;
+  text-decoration: none;
 }
 
 .kaufman {
@@ -321,6 +323,7 @@ p:last-child {
   }
 
   .column__link {
+    text-decoration: none;
     color: white;
     line-height: 30px;
     font-size: 18px;
@@ -337,10 +340,6 @@ p:last-child {
     size: 16px 16px;
   }
 
-  a:link {
-    color:  #2f80ed;
-    text-decoration: none;
-  }
 a:hover {
   color: darkslategray;
  }
