@@ -78,7 +78,6 @@
 	top: 64px;
   right: 0px;
   align-self: flex-end;
-	transform:rotate(-15deg);
 }
 
 .description{
@@ -88,6 +87,7 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   width: 80%;
   margin: 0 auto;
 }
@@ -98,12 +98,12 @@
   font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
-  margin: 0 auto;
+  margin-top: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
-  max-width: 784px;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
