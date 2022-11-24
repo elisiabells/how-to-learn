@@ -98,7 +98,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 .two-columns__main-text {
@@ -225,18 +225,19 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section-title_theme_dark {
-  position: relative;
-  margin: 0 auto;
   color: white;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  position: relative;
-  margin: 0 auto;
+  margin-top: 20px;
   color: white;
   z-index: 1;
 }
@@ -302,7 +303,6 @@
   }
 
   .footer__column-heading {
-    text-align: center;
     color: white;
     line-height: 30px;
     font-size: 18px;
