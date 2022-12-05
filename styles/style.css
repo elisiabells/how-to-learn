@@ -17,6 +17,7 @@
   justify-content: space-between;
 }
 
+
 .logo {
   width: 228px;
   height: 32px;
@@ -78,7 +79,15 @@
 	top: 64px;
   right: 0px;
   align-self: flex-end;
+  transform:rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
+
+@keyframes rotation {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
 
 .description{
   margin: 100px auto; 
@@ -262,6 +271,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  animation: rotation 20s linear infinite;
 }
 
 .footer {
