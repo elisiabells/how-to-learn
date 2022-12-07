@@ -3,3 +3,6 @@
     margin-right: 100px;
 }
 
+.cards__item:nth-of-type(3n+3) {
+    margin-right: 0;
+}
